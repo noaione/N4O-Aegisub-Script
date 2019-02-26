@@ -21,20 +21,30 @@
 					{
 						"name": ".moon",
 						"url": "@{fileBaseUrl}@{fileName}",
-						"sha1": ""
-					},
+						"sha1": "9E9B8850451110D82B78D4E6F2C828D649345BCC"
+					}
 					],
 					"requiredModules": [
 						{
-						
+							"moduleName": "a-mo.LineCollection",
+							"name": "Aegisub-Motion (LineCollection)",
+							"version": "1.3.0",
+							"feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
 						},
-					],
-				},
+						{
+							"moduleName": "l0.ASSFoundation",
+							"name": "ASSFoundation",
+							"version": "0.4.0",
+							"feed": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json"
+						}
+					]
+				}
 			},
 			"changelog": {
 				"1.0.0": [
 					"First commit and version"
 				]
+			}
 		}
 	}
 }
