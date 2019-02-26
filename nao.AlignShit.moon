@@ -9,14 +9,14 @@ DepCtrl = require "l0.DependencyControl"
 deps = DepCtrl{
 	feed: "https://raw.githubusercontent.com/noaione/N4O-Aegisub-Scripts/master/DependencyControl.json",
 	{
-		{"a-mo.LineCollection", url: "", feed: ""},
-		{"l0.ASSFoundation", url: "", feed: ""}
+		{"a-mo.LineCollection", url: "https://github.com/TypesettingTools/Aegisub-Motion", feed: "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"},
+		{"l0.ASSFoundation", url: "https://github.com/TypesettingTools/ASSFoundation", feed: "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json"}
 	}
 }
 
 LCollect, ASSF = deps\requireModules!
 
-ShiftAmount = (mode, orgAlign) ->
+ShiftAmount = (mode, orgAlign) -> -- Function to return additional values for shifting
 	if mode == 1
 		PosTables = {
 			"1": {0, 0},
@@ -162,7 +162,7 @@ Align2 = (sub, sel) ->
 		addx, addy = ShiftAmount(2, orgAlign.value)
 		pos.x\set pos.x + addx
 		pos.y\set pos.y + addy
-		orgAlign.value\set "1"
+		orgAlign.value\set "2"
 		data\commit!
 	
 	lines\replaceLines!
@@ -176,7 +176,7 @@ Align3 = (sub, sel) ->
 		addx, addy = ShiftAmount(3, orgAlign.value)
 		pos.x\set pos.x + addx
 		pos.y\set pos.y + addy
-		orgAlign.value\set "1"
+		orgAlign.value\set "3"
 		data\commit!
 	
 	lines\replaceLines!
@@ -190,7 +190,7 @@ Align4 = (sub, sel) ->
 		addx, addy = ShiftAmount(4, orgAlign.value)
 		pos.x\set pos.x + addx
 		pos.y\set pos.y + addy
-		orgAlign.value\set "1"
+		orgAlign.value\set "4"
 		data\commit!
 	
 	lines\replaceLines!
@@ -204,7 +204,7 @@ Align5 = (sub, sel) ->
 		addx, addy = ShiftAmount(5, orgAlign.value)
 		pos.x\set pos.x + addx
 		pos.y\set pos.y + addy
-		orgAlign.value\set "1"
+		orgAlign.value\set "5"
 		data\commit!
 	
 	lines\replaceLines!
@@ -218,7 +218,7 @@ Align6 = (sub, sel) ->
 		addx, addy = ShiftAmount(6, orgAlign.value)
 		pos.x\set pos.x + addx
 		pos.y\set pos.y + addy
-		orgAlign.value\set "1"
+		orgAlign.value\set "6"
 		data\commit!
 	
 	lines\replaceLines!
@@ -232,7 +232,7 @@ Align7 = (sub, sel) ->
 		addx, addy = ShiftAmount(7, orgAlign.value)
 		pos.x\set pos.x + addx
 		pos.y\set pos.y + addy
-		orgAlign.value\set "1"
+		orgAlign.value\set "7"
 		data\commit!
 	
 	lines\replaceLines!
@@ -246,7 +246,7 @@ Align8 = (sub, sel) ->
 		addx, addy = ShiftAmount(8, orgAlign.value)
 		pos.x\set pos.x + addx
 		pos.y\set pos.y + addy
-		orgAlign.value\set "1"
+		orgAlign.value\set "8"
 		data\commit!
 	
 	lines\replaceLines!
@@ -260,7 +260,7 @@ Align9 = (sub, sel) ->
 		addx, addy = ShiftAmount(9, orgAlign.value)
 		pos.x\set pos.x + addx
 		pos.y\set pos.y + addy
-		orgAlign.value\set "1"
+		orgAlign.value\set "9"
 		data\commit!
 	
 	lines\replaceLines!
@@ -276,6 +276,3 @@ deps\registerMacro {
 	{"Alignment 8 {\an8}", "Set alignment to \an8", Align8},
 	{"Alignment 9 {\an9}", "Set alignment to \an8", Align9}
 }
-		
-		
-		
