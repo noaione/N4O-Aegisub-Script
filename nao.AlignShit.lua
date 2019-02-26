@@ -1,4 +1,4 @@
-script_name         = "Align Shit"
+script_name         = "AlignShit"
 script_description  = "Realign line and apply position shifting to make it looked the same"
 script_version      = "1.0.1"
 script_author       = "N4O"

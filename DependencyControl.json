@@ -10,7 +10,7 @@
 		"nao.AlignShit" : {
 			"url": "@{baseUrl}#@{namespace}",
 			"author": "N4O",
-			"name": "Align Shit",
+			"name": "AlignShit",
 			"description": "Realign line and apply position shifting to make it looked the same",
 			"channels": {
 				"master": {
@@ -21,7 +21,7 @@
 					{
 						"name": ".lua",
 						"url": "@{fileBaseUrl}@{fileName}",
-						"sha1": "7BE010865262EF150D3A2012FEC33A8DE6F7C21D"
+						"sha1": "4953F9BE85740AF7E80BD5DAA7793345D97325BA"
 					}
 					]
 				}
