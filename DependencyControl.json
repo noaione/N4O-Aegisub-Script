@@ -3,7 +3,7 @@
 	"name": "N4O Aegisub Scripts",
 	"description": "Trying to make some useful hotkey",
 	"baseUrl": "https://github.com/noaione/N4O-Aegisub-Scripts",
-	"fileBaseUrl": "https://raw.githubusercontent.com/noaione/N4O-Aegisub-Scripts/@{channel}/@{namespace}",
+	"fileBaseUrl": "https://raw.githubusercontent.com/noaione/N4O-Aegisub-Scripts/master",
 	"url": "@{baseUrl}",
 	"maintainer": "N4O",
 	"macros": {
