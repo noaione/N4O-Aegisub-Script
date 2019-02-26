@@ -23,12 +23,20 @@
 						"url": "@{fileBaseUrl}@{fileName}",
 						"sha1": "7BE010865262EF150D3A2012FEC33A8DE6F7C21D"
 					}
-					]
+					],
+					"requiredModules": [
+						{
+						  "moduleName": "aegisub.re"
+						}
+					  ]
 				}
 			},
 			"changelog": {
 				"1.0.0": [
 					"First commit and version, created from \\an1 to \\an3"
+				],
+				"1.0.1": [
+					"Some DependencyControl fixes"
 				]
 			}
 		}
