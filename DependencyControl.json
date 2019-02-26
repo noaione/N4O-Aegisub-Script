@@ -1,0 +1,40 @@
+{
+	"dependencyControlFeedFormatVersion": "0.2.0",
+	"name": "N4O Aegisub Scripts",
+	"description": "Trying to make some useful hotkey",
+	"baseUrl": "https://github.com/noaione/N4O-Aegisub-Scripts",
+	"fileBaseUrl": "https://raw.githubusercontent.com/noaione/N4O-Aegisub-Scripts",
+	"url": "@{baseUrl}",
+	"maintainer": "N4O",
+	"macros": {
+		"nao.AlignShit" : {
+			"url": "@{baseUrl}#@{namespace}",
+			"author": "N4O",
+			"name": "Align Shit",
+			"description": "",
+			"channels": {
+				"master": {
+					"version": "1.0.0",
+					"released": "2019-02-26",
+					"default": false,
+					"files": [
+					{
+						"name": ".moon",
+						"url": "@{fileBaseUrl}@{fileName}",
+						"sha1": ""
+					},
+					],
+					"requiredModules": [
+						{
+						
+						},
+					],
+				},
+			},
+			"changelog": {
+				"1.0.0": [
+					"First commit and version"
+				]
+		}
+	}
+}
