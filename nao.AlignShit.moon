@@ -343,7 +343,7 @@ Align9 = (sub, sel) ->
 	
 	lines\replaceLines!
 
-deps\registerMacro {
+deps\registerMacros {
 	{"Alignment 1 {\an1}", "Set alignment to \an1", Align1},
 	{"Alignment 2 {\an2}", "Set alignment to \an2", Align2},
 	{"Alignment 3 {\an3}", "Set alignment to \an3", Align3},
