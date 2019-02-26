@@ -6,11 +6,11 @@ Realign line and apply position shifting to make it looked the same
 
 Useful when hotkeyed
 
-Need:
+**Version**: 1.0.2
+
+**Need**:
 - line0 DependencyControl (l0.DependencyControl)
-- line0 ASSFoundation (l0.ASSFoundation)
-- lyger Aegisub-Motion LineCollection (a-mo.LineCollection)
 
-Demo:
+**Demo**:
 
-![AlignShit Demo](https://puu.sh/CRZTG/39a73455cb.gif)
+![AlignShit Demo](https://puu.sh/CS0x5/06773438e1.gif)

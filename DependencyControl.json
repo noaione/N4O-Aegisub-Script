@@ -14,7 +14,7 @@
 			"description": "Realign line and apply position shifting to make it looked the same",
 			"channels": {
 				"master": {
-					"version": "1.0.1",
+					"version": "1.0.2",
 					"released": "2019-02-26",
 					"default": true,
 					"files": [
@@ -37,6 +37,9 @@
 				],
 				"1.0.1": [
 					"Some DependencyControl fixes"
+				],
+				"1.0.2": [
+					"Completed all \\an1 to \\an9 positioning"
 				]
 			}
 		}
