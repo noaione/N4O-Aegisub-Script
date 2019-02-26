@@ -1,12 +1,12 @@
 script_name         = "Align Shit"
 script_description  = "Realign line and apply position shifting to make it looked the same"
-script_version      = "1.0.0"
+script_version      = "1.0.1"
 script_author       = "N4O"
 script_namespace    = "nao.AlignShit"
 
 local haveDepCtrl,DependencyControl,depRec=pcall(require,"l0.DependencyControl")
 if haveDepCtrl then
-	script_version="1.0.0"
+	script_version="1.0.1"
 	depRec=DependencyControl{feed="https://raw.githubusercontent.com/noaione/N4O-Aegisub-Scripts/master/DependencyControl.json"}
 end
 

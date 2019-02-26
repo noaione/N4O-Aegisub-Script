@@ -14,14 +14,14 @@
 			"description": "Realign line and apply position shifting to make it looked the same",
 			"channels": {
 				"master": {
-					"version": "1.0.0",
+					"version": "1.0.1",
 					"released": "2019-02-26",
 					"default": false,
 					"files": [
 					{
 						"name": ".lua",
 						"url": "@{fileBaseUrl}@{fileName}",
-						"sha1": "9482EF2B133B236D3233B66AFA0880FC4FB25774"
+						"sha1": "7BE010865262EF150D3A2012FEC33A8DE6F7C21D"
 					}
 					]
 				}
