@@ -11,7 +11,7 @@
 			"url": "@{baseUrl}#@{namespace}",
 			"author": "N4O",
 			"name": "Align Shit",
-			"description": "",
+			"description": "Realign line and apply position shifting to make it looked the same",
 			"channels": {
 				"master": {
 					"version": "1.0.0",
@@ -19,30 +19,16 @@
 					"default": false,
 					"files": [
 					{
-						"name": ".moon",
+						"name": ".lua",
 						"url": "@{fileBaseUrl}@{fileName}",
-						"sha1": "2A5F31E108D7C1283AE43D6B4A29757CF819B87E"
+						"sha1": "9482EF2B133B236D3233B66AFA0880FC4FB25774"
 					}
-					],
-					"requiredModules": [
-						{
-							"moduleName": "a-mo.LineCollection",
-							"name": "Aegisub-Motion (LineCollection)",
-							"version": "1.3.0",
-							"feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
-						},
-						{
-							"moduleName": "l0.ASSFoundation",
-							"name": "ASSFoundation",
-							"version": "0.4.0",
-							"feed": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json"
-						}
 					]
 				}
 			},
 			"changelog": {
 				"1.0.0": [
-					"First commit and version"
+					"First commit and version, created from \\an1 to \\an3"
 				]
 			}
 		}
